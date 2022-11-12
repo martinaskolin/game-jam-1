@@ -22,4 +22,9 @@ public class Resource : SelectorOutput
     {
         return this.type;
     }
+
+    public override void SetOutput(string output)
+    {
+        throw new System.NotImplementedException();
+    }
 }
